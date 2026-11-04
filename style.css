@@ -1,0 +1,12 @@
+@keyframes soft-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(253, 230, 138, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(253, 230, 138, 0.7);
+  }
+}
+
+.shining-btn {
+  animation: soft-pulse 2.5s infinite ease-in-out;
+}
